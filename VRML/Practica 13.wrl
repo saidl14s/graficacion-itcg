@@ -1,0 +1,129 @@
+#VRML V2.0 utf8
+
+
+Shape { 
+	geometry Box {
+
+	}
+	appearance Appearance{
+		texture ImageTexture{
+			url "a.gif"
+			repeatS TRUE
+			repeatT TRUE
+		}
+	}
+}
+
+Transform{
+	translation 2.5 0 0
+	children[
+		Shape {
+			geometry Sphere{
+
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor 0 .4 .6
+					diffuseColor .22 .15 0
+					specularColor .71 .70 .56
+					shininess .16
+				}
+			}
+		}
+	]
+}
+
+Transform{
+	translation -2.5 0 0
+	children[
+		Shape {
+			geometry Sphere{
+
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor 0 .4 .6
+					diffuseColor .22 .15 0
+					specularColor .71 .70 .56
+					shininess .16
+				}
+			}
+		}
+	]
+}
+
+Transform{
+	translation 0 -2.5 0
+	children[
+		Shape {
+			geometry Sphere{
+
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor 0 .4 .6
+					diffuseColor .22 .15 0
+					specularColor .71 .70 .56
+					shininess .16
+				}
+			}
+		}
+	]
+}
+
+Transform{
+	translation 0 2.5 0
+	children[
+		Shape {
+			geometry Sphere{
+
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor 0 .4 .6
+					diffuseColor .22 .15 0
+					specularColor .71 .70 .56
+					shininess .16
+				}
+			}
+		}
+	]
+}
+
+Transform{
+	translation 0 0 -2.5 
+	children[
+		Shape {
+			geometry Sphere{
+
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor 0 .4 .6
+					diffuseColor .22 .15 0
+					specularColor .71 .70 .56
+					shininess .16
+				}
+			}
+		}
+	]
+}
+
+Transform{
+	translation 0 0 2.5
+	children[
+		Shape {
+			geometry Sphere{
+
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor 0 .4 .6
+					diffuseColor .22 .15 0
+					specularColor .71 .70 .56
+					shininess .16
+				}
+			}
+		}
+	]
+}

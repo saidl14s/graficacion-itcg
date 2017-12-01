@@ -1,0 +1,333 @@
+#VRML V2.0 utf8
+
+
+Shape { 
+	geometry Box {
+		size 3 .35 .35
+	}
+	appearance Appearance{
+		material Material{
+			emissiveColor .1 .1 .1
+			diffuseColor .8 .8 .8
+		}
+	}
+}
+Transform{
+	translation 1.5 1.5 0
+	children[
+		Shape { 
+			geometry Box {
+				size .35 3 .35
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+				}
+			}
+		}
+	]
+}
+Transform{
+	translation -1.5 1.5 0
+	children[
+		Shape { 
+			geometry Box {
+				size .35 3 .35
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+				}
+			}
+		}
+	]
+}
+Transform{
+	translation 0 3 0
+	children[
+		Shape { 
+			geometry Box {
+				size 3 .35 .35
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+				}
+			}
+		}
+	]
+}
+#3D
+Transform{
+	translation 1.5 1.5 3
+	children[
+		Shape { 
+			geometry Box {
+				size .35 3 .35
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+				}
+			}
+		}
+	]
+}
+Transform{
+	translation -1.5 1.5 3
+	children[
+		Shape { 
+			geometry Box {
+				size .35 3 .35
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+				}
+			}
+		}
+	]
+}
+Transform{
+	translation 0 3 3
+	children[
+		Shape { 
+			geometry Box {
+				size 3 .35 .35
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+				}
+			}
+		}
+	]
+}
+Transform{
+	translation 0 0 3
+	children[
+		Shape { 
+			geometry Box {
+				size 3 .35 .35
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+				}
+			}
+		}
+	]
+}
+Transform{
+	translation 1.5 0 1.5
+	children[
+		Shape { 
+			geometry Box {
+				size .35 .35 3
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+				}
+			}
+		}
+	]
+}
+Transform{
+	translation -1.5 0 1.5
+	children[
+		Shape { 
+			geometry Box {
+				size .35 .35 3
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+				}
+			}
+		}
+	]
+}
+Transform{
+	translation 1.5 3 1.5
+	children[
+		Shape { 
+			geometry Box {
+				size .35 .35 3
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+				}
+			}
+		}
+	]
+}
+Transform{
+	translation -1.5 3 1.5
+	children[
+		Shape { 
+			geometry Box {
+				size .35 .35 3
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+				}
+			}
+		}
+	]
+}
+
+
+#Esferas
+Transform{
+	translation 1.5 0 0
+	children[
+		Shape {
+			geometry Sphere{
+				radius .25
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+					shininess .9
+				}
+			}
+		}
+	]
+}
+Transform{
+	translation -1.5 0 0
+	children[
+		Shape {
+			geometry Sphere{
+				radius .25
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+					shininess .9
+				}
+			}
+		}
+	]
+}
+Transform{
+	translation 1.5 3 0
+	children[
+		Shape {
+			geometry Sphere{
+				radius .25
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+					shininess .9
+				}
+			}
+		}
+	]
+}
+Transform{
+	translation -1.5 3 0
+	children[
+		Shape {
+			geometry Sphere{
+				radius .25
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+					shininess .9
+				}
+			}
+		}
+	]
+}
+
+#3D
+
+Transform{
+	translation -1.5 3 3
+	children[
+		Shape {
+			geometry Sphere{
+				radius .25
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+					shininess .9
+				}
+			}
+		}
+	]
+}
+Transform{
+	translation 1.5 0 3
+	children[
+		Shape {
+			geometry Sphere{
+				radius .25
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+					shininess .9
+				}
+			}
+		}
+	]
+}
+Transform{
+	translation -1.5 0 3
+	children[
+		Shape {
+			geometry Sphere{
+				radius .25
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+					shininess .9
+				}
+			}
+		}
+	]
+}
+Transform{
+	translation 1.5 3 3
+	children[
+		Shape {
+			geometry Sphere{
+				radius .25
+			}
+			appearance Appearance{
+				material Material{
+					emissiveColor .1 .1 .1
+					diffuseColor .8 .8 .8
+					shininess .9
+				}
+			}
+		}
+	]
+}
